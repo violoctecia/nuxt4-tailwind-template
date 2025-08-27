@@ -1,0 +1,7 @@
+echo "Husky ===> 🧪 Executing Prettier ..."
+pnpm prettier --write .
+
+echo "Husky ===> 🧪 Executing ESLint fix ..."
+pnpm lint:fix
+
+echo "Husky ===> 🎉 Lint & Prettier complete!"
