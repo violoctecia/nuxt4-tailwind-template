@@ -37,4 +37,13 @@ export default defineNuxtConfig({
 			minify: true,
 		},
 	},
+	hooks: {
+		'build:manifest': (manifest) => {
+			for (const key in manifest) {
+				const file = manifest[key];
+				file!.preload = false;
+				file!.prefetch = false;
+			}
+		},
+	},
 });
