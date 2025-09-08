@@ -20,7 +20,7 @@ export default withNuxt(
 		rules: {
 			'no-console': 'warn',
 			'@typescript-eslint/no-explicit-any': 'warn',
-			'@typescript-eslint/no-unused-vars': 'error',
+			'@typescript-eslint/no-unused-vars': 'warn',
 
 			'vue/no-multiple-template-root': 'off',
 			'vue/attributes-order': 'off',

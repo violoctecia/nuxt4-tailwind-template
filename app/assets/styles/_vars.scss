@@ -1,0 +1,5 @@
+@mixin mw1000 {
+	@media (min-width: 1000px) {
+		@content;
+	}
+}

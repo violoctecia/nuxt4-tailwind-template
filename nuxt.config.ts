@@ -4,7 +4,17 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 
 	modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint', '@pinia/nuxt'],
-	css: ['~/assets/styles/global.css'],
+
+	css: ['~/assets/styles/global.scss'],
+	vite: {
+		css: {
+			preprocessorOptions: {
+				scss: {
+					additionalData: '@use "~/assets/styles/_vars.scss" as *;',
+				},
+			},
+		},
+	},
 
 	app: {
 		rootId: 'violoctecia',

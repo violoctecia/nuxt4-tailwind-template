@@ -9,13 +9,14 @@ export default {
 			fontFamily: {
 				sans: ['Inter', 'ui-sans-serif', 'system-ui'],
 			},
-			transitionDuration: {
-				DEFAULT: '200ms',
-			},
 		},
 		screens: {
-			md: '640px',
-			xl: '1200px',
+			xs: '376px',
+			sm: '640px', // Small (>= 640px)
+			md: '768px', // Medium (>= 768px)
+			lg: '1024px', // Large (>= 1024px)
+			xl: '1280px', // Extra Large (>= 1280px)
+			'2xl': '1536px', // 2X Extra Large (>= 1536px)
 		},
 		container: {
 			center: true,
@@ -29,4 +30,7 @@ export default {
 		},
 	},
 	plugins: [],
+	future: {
+		hoverOnlyWhenSupported: true,
+	},
 };
