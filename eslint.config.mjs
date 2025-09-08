@@ -24,6 +24,12 @@ export default withNuxt(
 
 			'vue/no-multiple-template-root': 'off',
 			'vue/attributes-order': 'off',
+			'vue/multi-word-component-names': [
+				'error',
+				{
+					ignores: ['index', 'default', 'error', '[id]'],
+				},
+			],
 			'vue/no-undef-components': [
 				'error',
 				{
