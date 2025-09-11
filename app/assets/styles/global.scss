@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    @apply bg-gray-50 text-gray-800;
+	@apply bg-gray-50 text-gray-800;
 }
 
 .container {
-    @apply mx-auto max-w-7xl px-4;
-    &__sm {
-        @apply mx-auto max-w-5xl px-4;
-    }
+	@apply mx-auto max-w-7xl px-4;
+	&__sm {
+		@apply mx-auto max-w-5xl px-4;
+	}
 }

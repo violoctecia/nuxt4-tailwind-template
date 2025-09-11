@@ -1,11 +1,11 @@
 {
-    "prettier.configPath": ".prettierrc",
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": false,
-    "scss.lint.unknownAtRules": "ignore",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.useEditorConfig": false,
-    "editor.tabSize": 4,
-    "editor.indentSize": 4,
-    "editor.formatOnSave": true
+	"prettier.configPath": ".prettierrc",
+	"editor.formatOnPaste": false,
+	"editor.formatOnType": false,
+	"scss.lint.unknownAtRules": "ignore",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.useEditorConfig": false,
+	"editor.tabSize": 4,
+	"editor.indentSize": 4,
+	"editor.formatOnSave": true
 }

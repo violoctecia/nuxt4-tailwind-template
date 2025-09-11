@@ -1,24 +1,29 @@
 # Nuxt4 Tailwind Template
 
-A starter template for Nuxt 4 with Tailwind CSS, TypeScript, Pinia, EsLint, prettier and Husky pre-commit hooks.
+A starter template for Nuxt 4 with Tailwind CSS + SCSS TypeScript, Pinia, EsLint, prettier and Husky pre-commit hooks. Optimized for production.
 
 ## Build Setup
 
+This project is using pnpm as the package manager, you can use npm or yarn.
+
 ```bash
-# install dependencies
-$ pnpm install
+# Install dependencies
+pnpm install
 
-# serve with hot reload at localhost:3000
-$ pnpm dev
+# Serve with hot reload at localhost:3000
+pnpm dev
 
-# build for production and launch server
-$ pnpm build
-$ pnpm start
+# Build for production and start the server
+pnpm build
+pnpm start
 
-# lint
-$ pnpm lint
-$ pnpm lint:fix
+# Lint the code
+pnpm lint
 
-# format
-$ pnpm prettier
+# Automatically fix linting errors
+pnpm lint:fix
+
+# Format code with Prettier
+pnpm prettier
+
 ```

@@ -1,8 +1,8 @@
 <template>
-    <MainHeader />
-    <main>
-        <slot></slot>
-    </main>
+	<MainHeader />
+	<main>
+		<slot></slot>
+	</main>
 </template>
 
 <script setup lang="ts">
